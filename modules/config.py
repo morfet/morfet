@@ -357,7 +357,7 @@ default_styles = get_config_item_or_set_default(
 )
 default_prompt_negative = get_config_item_or_set_default(
     key='default_prompt_negative',
-    default_value='',
+    default_value='Low quality, ugly, grainy, twins, long neck, malformed eyes, malformed mouth, malformed hands, deformations, text, signature, broken, holey, frame, graphic, old detail, f/4, romantic peace, overexposed angles, carpet,ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers',
     validator=lambda x: isinstance(x, str),
     disable_empty_as_none=True
 )
@@ -379,17 +379,17 @@ default_advanced_checkbox = get_config_item_or_set_default(
 )
 default_max_image_number = get_config_item_or_set_default(
     key='default_max_image_number',
-    default_value=32,
+    default_value=5,
     validator=lambda x: isinstance(x, int) and x >= 1
 )
 default_output_format = get_config_item_or_set_default(
     key='default_output_format',
-    default_value='png',
+    default_value='jpeg',
     validator=lambda x: x in OutputFormat.list()
 )
 default_image_number = get_config_item_or_set_default(
     key='default_image_number',
-    default_value=2,
+    default_value=1,
     validator=lambda x: isinstance(x, int) and 1 <= x <= default_max_image_number
 )
 checkpoint_downloads = get_config_item_or_set_default(
@@ -410,9 +410,7 @@ embeddings_downloads = get_config_item_or_set_default(
 available_aspect_ratios = get_config_item_or_set_default(
     key='available_aspect_ratios',
     default_value=[
-        '704*1408', '704*1344', '768*1344', '768*1280', '832*1216', '832*1152',
-        '896*1152', '896*1088', '960*1088', '960*1024', '1024*1024', '1024*960',
-        '1088*960', '1088*896', '1152*896', '1152*832', '1216*832', '1280*768',
+        '1216*832','832*1216','1024*1024','1280*768', '768*1280',
         '1344*768', '1344*704', '1408*704', '1472*704', '1536*640', '1600*640',
         '1664*576', '1728*576'
     ],
@@ -420,7 +418,7 @@ available_aspect_ratios = get_config_item_or_set_default(
 )
 default_aspect_ratio = get_config_item_or_set_default(
     key='default_aspect_ratio',
-    default_value='1152*896' if '1152*896' in available_aspect_ratios else available_aspect_ratios[0],
+    default_value='1216*832' if '1152*896' in available_aspect_ratios else available_aspect_ratios[0],
     validator=lambda x: x in available_aspect_ratios
 )
 default_inpaint_engine_version = get_config_item_or_set_default(
