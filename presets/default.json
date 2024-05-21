@@ -35,7 +35,7 @@
     "default_scheduler": "sgm_uniform",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt_negative": "Low quality, ugly, grainy, twins, long neck, malformed eyes, malformed mouth, malformed hands, deformations, text, signature, broken, holey, frame, graphic, old detail, f/4, romantic peace, overexposed angles, carpet,ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Enhance",
