@@ -44,7 +44,7 @@
     "default_aspect_ratio": "1216*832",
     "checkpoint_downloads": {
         "rakibuniverseV4.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/RakibuniverseV4.safetensors",
-        "##srdreamtimesV3.safetensors": "https://huggingface.co/rafiislam/srdreamtimeslightning/resolve/main/srdreamtimesV3.safetensors"
+        
     },
     "embeddings_downloads": {},
     "lora_downloads": {
