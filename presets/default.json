@@ -38,14 +38,12 @@
     "default_prompt_negative": "Low quality, ugly, grainy, twins, long neck, malformed eyes, malformed mouth, malformed hands, deformations, text, signature, broken, holey, frame, graphic, old detail, f/4, romantic peace, overexposed angles, carpet,ugly, deformed, noisy, blurry, distorted, out of focus, bad anatomy, extra limbs, poorly drawn face, poorly drawn hands, missing fingers",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Enhance"
         
     ],
     "default_aspect_ratio": "1216*832",
     "checkpoint_downloads": {
-        "rakibuniverseV4.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/RakibuniverseV4.safetensors",
-        "srdreamtimesV3.safetensors": "https://huggingface.co/rafiislam/srdreamtimeslightning/resolve/main/srdreamtimesV3.safetensors"
+        "rakibuniverseV4.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/RakibuniverseV4.safetensors"
         
     },
     "embeddings_downloads": {},
