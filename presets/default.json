@@ -43,7 +43,7 @@
     ],
     "default_aspect_ratio": "1216*832",
     "checkpoint_downloads": {
-        "rakibuniverseV4.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/RakibuniverseV4.safetensors",
+        "rakibuniverseV4.safetensors": "https://huggingface.co/rafiislam/RakibUniverse/resolve/main/RakibuniverseV4.safetensors"
         
     },
     "embeddings_downloads": {},
