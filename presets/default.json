@@ -1,5 +1,5 @@
 {
-    "default_model": "imagination_v1.safetensors",
+    "default_model": "imagination_v2.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -43,7 +43,7 @@
     ],
     "default_aspect_ratio": "1216*832",
     "checkpoint_downloads": {
-        "imagination_v1.safetensors": "https://huggingface.co/rafiislam/imagination/resolve/main/imagination_v1.safetensors"
+        "imagination_v2.safetensors": "https://huggingface.co/rafiislam/imagination/resolve/main/imagination_v2.safetensors"
         
     },
     "embeddings_downloads": {},
